@@ -1,16 +1,30 @@
-# ble_chat
+# BLE Chat Application
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+The BLE Chat application is a Flutter-based mobile app designed to enable bidirectional communication between two mobile devices using Bluetooth Low Energy (BLE). Users can scan for available BLE devices, connect to them, and exchange messages in real-time.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Device Scanning**: Scan for and list available BLE devices.
+- **Device Connection**: Connect to a selected BLE device.
+- **Message Exchange**: Send and receive messages between connected devices.
+- **Auto-Reconnect**: Automatically reconnect to the last connected device on app restart.
+- **Bluetooth State Handling**: Notify users when Bluetooth is off.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/kiran31/FlutterBluePluse.git
+    ```
+
+2. **Navigate to the project directory**:
+    ```bash
+    cd FlutterBluePluse
+    ```
+
+3. **Install dependencies**:
+    ```bash
+    flutter pub get
+   ```
